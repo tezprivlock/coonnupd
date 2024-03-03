@@ -1,7 +1,7 @@
 Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro2/main/ui2"))()
 local NotifyLib =
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vKhonshu/intro/main/ui"))()
-NotifyLib.prompt('SunnySide Lock', 'Modified & Created By: @9opkl Discord', 5)
+NotifyLib.prompt('nyuware Lock', 'Modified & Created By: @9opkl Discord', 5)
 
 local UserInputService = game:GetService("UserInputService")
 local RunService = game:GetService("RunService")
@@ -23,7 +23,7 @@ if isTouchEnabled then
     -- Tool
     local tool = Instance.new("Tool")
     tool.RequiresHandle = false
-    tool.Name = "SunnySide"
+    tool.Name = "nyuware"
     
     -- Key To Click Simulates
     tool.Activated:connect(function()
@@ -55,7 +55,7 @@ elseif isGamepadEnabled and isTouchEnabled then
     -- Tool
     local tool = Instance.new("Tool")
     tool.RequiresHandle = false
-    tool.Name = "SunnySide"
+    tool.Name = "nyuware"
     
     -- Key To Click Simulates
     tool.Activated:connect(function()
@@ -84,7 +84,7 @@ elseif isMouseEnabled and isMouseEnabled and isTouchEnabled then
     -- Tool
     local tool = Instance.new("Tool")
     tool.RequiresHandle = false
-    tool.Name = "SunnySide"
+    tool.Name = "nyuware"
     
     -- Key To Click Simulates
     tool.Activated:connect(function()
@@ -119,7 +119,7 @@ Settings = {
 
 local SelectedPart = "HumanoidRootPart"
 local Prediction = true
-local PredictionValue = 0.1357363
+local PredictionValue = 0.1384
 
 
 local AnchorCount = 0
